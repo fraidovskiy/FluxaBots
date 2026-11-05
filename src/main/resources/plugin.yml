@@ -1,0 +1,13 @@
+name: ServerBots
+version: 2.0.0
+main: ru.serverbots.ServerBots
+api-version: '1.21'
+depend: [ProtocolLib]
+commands:
+  bots:
+    description: Управление TAB-ботами
+    usage: /bots help
+permissions:
+  serverbots.admin:
+    description: Полный доступ к командам ServerBots
+    default: op
